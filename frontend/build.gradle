@@ -1,0 +1,10 @@
+group = 'com.siemprepe.demo-boot-vue'
+version = '0.0.1-SNAPSHOT'
+
+task copyDist(type: Copy) {
+    from 'target/dist'
+    into "../backend/src/main/resources/static"
+    include 'static/'
+    include 'index.html'
+}
+

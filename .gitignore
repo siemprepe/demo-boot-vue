@@ -1,0 +1,8 @@
+*.iml
+.idea
+.gradle
+build/
+backend/build/
+frontend/build/
+frontend/target/
+frontend/node_modules/
